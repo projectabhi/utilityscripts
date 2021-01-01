@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# Reference: http://roboojack.blogspot.in/2014/12/bulk-upload-your-local-maven-artifacts.html
-
 if [ "$#" -ne 3 ] || ! [ -d "$1" ]; then
     echo "Usage:"
     echo "       bash run.sh <repoRootFolder> <repositoryId> <repositoryUrl>"
